@@ -1,0 +1,13 @@
+usearchive[interfacepadron/ip.padr] [
+
+createWindow [
+    [syntax-interface]
+    button[text'Hello World!' action'openNotepad{}']
+]
+
+createFunction[named openNotepad{}] [
+    [syntax-interface]
+    openApplication[notepad.exe]
+]
+
+end]
